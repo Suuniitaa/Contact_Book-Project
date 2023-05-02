@@ -33,7 +33,7 @@ while True :
     elif user_choice ==4:
         edit_contact = input("Enter the contact name to be edited?")
         if edit_contact in contact:
-            phone = input("Enter the mobile number?")
+            phone = input("Enter the mobile number? ")
             contact[edit_contact]=phone_number
             print("contact_updated")
             display_contact()
